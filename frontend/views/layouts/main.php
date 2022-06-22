@@ -41,6 +41,13 @@ AppAsset::register($this);
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
+    } else {
+        $menuItems[] = ['label' => 'Test', 'items' => [
+            ['label' => 'Page', 'url' => ['/page/back/index']],
+            ['label' => 'Banner', 'url' => ['/banner/back/index']],
+            ['label' => 'Blog', 'url' => ['/blog/back/index']],
+            ['label' => 'Navigation', 'url' => ['/navigation/back/index']],
+        ]];
     }
 
     echo Nav::widget([

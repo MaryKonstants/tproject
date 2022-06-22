@@ -22,7 +22,8 @@
         "uraankhayayaal/yii2-page": "*",
         "it-yakutia/yii2-banner": "*",
         "it-yakutia/yii2-blog": "*",
-        "it-yakutia/yii2-navigation": "*"
+        "it-yakutia/yii2-navigation": "*",
+        "it-yakutia/yii2-gallery": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

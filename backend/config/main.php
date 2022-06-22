@@ -12,6 +12,7 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
+    'layoutPath' => '@vendor/it-yakutia/yii2-materialadmin/src/views/layouts',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
