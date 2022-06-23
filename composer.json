@@ -18,12 +18,12 @@
         "yiisoft/yii2": "~2.0.45",
         "yiisoft/yii2-bootstrap5": "~2.0.2",
         "yiisoft/yii2-symfonymailer": "~2.0.3",
-        "it-yakutia/yii2-materialadmin": "*",
-        "uraankhayayaal/yii2-page": "*",
-        "it-yakutia/yii2-banner": "*",
-        "it-yakutia/yii2-blog": "*",
-        "it-yakutia/yii2-navigation": "*",
-        "it-yakutia/yii2-gallery": "*"
+        "it-yakutia/yii2-materialadmin": "~1.0.0",
+        "uraankhayayaal/yii2-page": "~1.0.0",
+        "it-yakutia/yii2-banner": "~1.0.0",
+        "it-yakutia/yii2-blog": "~1.0.0",
+        "it-yakutia/yii2-navigation": "~1.0.5",
+        "it-yakutia/yii2-gallery": "~1.0.1"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

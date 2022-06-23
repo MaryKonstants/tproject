@@ -18,10 +18,30 @@ After it enter to docker container
 ```sh
 docker exec -it frontend_contaner bash
 ```
+
 After in
+set up [0] Development environment
+```sh
+php init
+```
+
 install this extension is through [composer](http://getcomposer.org/download/).
 ```sh
 composer install
+```
+
+set up yii2 mysql connect
+```sh
+docker inspect project-mysql-1 (IPAddress)
+
+mysql environment:
+      - MYSQL_ROOT_PASSWORD=verysecret
+      - MYSQL_DATABASE=yii2advanced
+      - MYSQL_USER=yii2advanced
+      - MYSQL_PASSWORD=secret
+from docker-compose.yml      
+
+/app/common/main-local.php
 ```
 
 And just run the command:
