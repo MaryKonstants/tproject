@@ -43,9 +43,9 @@ AppAsset::register($this);
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
     } else {
         $menuItems[] = ['label' => 'Test', 'items' => [
-            ['label' => 'Page', 'url' => ['/page/back/index']],
+            ['label' => 'Page', 'url' => ['/someslug_3']],
             ['label' => 'Banner', 'url' => ['/banner/back/index']],
-            ['label' => 'Blog', 'url' => ['/blog/back/index']],
+            ['label' => 'Blog', 'url' => ['/blog/front/index']],
             ['label' => 'Navigation', 'url' => ['/navigation/back/index']],
         ]];
     }
